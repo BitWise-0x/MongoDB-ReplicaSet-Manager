@@ -3,7 +3,7 @@ MongoDB ReplicaSet Manager for Docker Swarm
 
 AUTHOR: Røb (jackietreehorn01@protonmail.com)
 VERSION: 1.04
-REPO: https://github.com/JackieTreeh0rn/MongoDB-ReplicaSet-Manager
+REPO: https://github.com/BitWise-0x/MongoDB-ReplicaSet-Manager
 
 DESCRIPTION:
     Automated MongoDB ReplicaSet management for Docker Swarm environments.

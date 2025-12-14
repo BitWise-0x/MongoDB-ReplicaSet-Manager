@@ -45,7 +45,7 @@ This tool automates the configuration, initiation, monitoring, and management of
 ## How to Use
 
 **TL;DR:**<br/>
-- `git clone https://github.com/JackieTreeh0rn/MongoDB-ReplicaSet-Manager`
+- `git clone https://github.com/BitWise-0x/MongoDB-ReplicaSet-Manager`
 - `./deploy.sh`
 <br/>
 1. Ensure that all required environment variables are set in [`mongo-rs.env`](./mongo-rs.env) (see environment variables below). <br/>
@@ -200,5 +200,5 @@ The script requires the following environment variables, defined in `mongo-rs.en
 
 ## Contact
    - Discord: [discordapp.com/users/916819244048592936](https://discordapp.com/users/916819244048592936)
-   - GitHub: [github.com/jackietreeh0rn](https://github.com/jackietreeh0rn)
+   - GitHub: [github.com/BitWise-0x](https://github.com/BitWise-0x)
    - DockerHub: [hub.docker.com/u/jackietreehorn](https://hub.docker.com/u/jackietreehorn)
