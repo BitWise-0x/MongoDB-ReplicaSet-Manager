@@ -6,6 +6,8 @@
 ## Introduction
 This tool automates the configuration, initiation, monitoring, and management of a MongoDB replica set within a Docker Swarm environment. It ensures continuous operation, and adapts to changes within the Swarm network, ensuring high availability and consistency of data.
 
+> **Read the full write-up:** [Building Production MongoDB Replica Sets in Docker Swarm](https://blog.bitwisesolutions.co/blog/mongodb-replica-set-manager) — covers architecture decisions, failover benchmarks, and production lessons learned.
+
 ## Features
 - ✅ **Intelligent Fresh Deployment**: Configures and initiates MongoDB replica set from scratch with smart node detection, accounting for 'down' or 'unavailable' swarm nodes and deployment constraints.
 
