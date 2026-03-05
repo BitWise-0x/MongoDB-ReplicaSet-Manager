@@ -257,7 +257,6 @@ members: [
 
 ## Contact
 
-- Discord: [discordapp.com/users/916819244048592936](https://discordapp.com/users/916819244048592936)
 - GitHub: [github.com/BitWise-0x](https://github.com/BitWise-0x)
 - DockerHub: [hub.docker.com/u/jackietreehorn](https://hub.docker.com/u/jackietreehorn)
 
