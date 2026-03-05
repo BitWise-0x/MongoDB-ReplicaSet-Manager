@@ -3,7 +3,6 @@
   <img src="https://img.shields.io/badge/Docker_Swarm-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Swarm"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
   <br>
-  <br>
   <code><strong>MongoDB-ReplicaSet-Manager</strong></code>
 </h1>
 
