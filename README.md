@@ -37,7 +37,7 @@ git clone https://github.com/BitWise-0x/MongoDB-ReplicaSet-Manager && cd MongoDB
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td valign="top">
 
 ### Deployment Intelligence
 
@@ -50,7 +50,9 @@ git clone https://github.com/BitWise-0x/MongoDB-ReplicaSet-Manager && cd MongoDB
 - **Advanced Startup Handling**: Robust retry logic handles MongoDB transitional states (`NotYetInitialized`) during startup, distinguishing between temporary states and actual fresh deployments.
 
 </td>
-<td width="50%" valign="top">
+</tr>
+<tr>
+<td valign="top">
 
 ### Runtime Management
 
