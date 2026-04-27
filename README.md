@@ -19,7 +19,7 @@
   Ensures continuous operation and adapts to topology changes for high availability and data consistency.
 </p>
 
-> **Read the full write-up:** [Building Production MongoDB Replica Sets in Docker Swarm](https://blog.bitwisesolutions.co/blog/mongodb-replica-set-manager) — covers architecture decisions, failover benchmarks, and production lessons learned.
+> **Read the full write-up:** [Building Production MongoDB Replica Sets in Docker Swarm](https://blog.bitwise0x.com/blog/mongodb-replica-set-manager) — covers architecture decisions, failover benchmarks, and production lessons learned.
 
 ---
 
