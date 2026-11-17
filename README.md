@@ -83,13 +83,13 @@ git clone https://github.com/BitWise-0x/MongoDB-ReplicaSet-Manager && cd MongoDB
 graph TD
     User["👤 Admin / App"]
 
-    subgraph Docker Swarm
+    subgraph swarm["Docker Swarm"]
         db["<b>database</b><br>mongo:8.0.13<br>:27017 (internal)<br><i>global mode</i>"]
         ctrl["<b>dbcontroller</b><br>jackietreehorn/mongo-replica-ctrl<br><i>manager node only</i>"]
         nosql["<b>nosqlclient</b><br>mongoclient/mongoclient<br>:3030"]
     end
 
-    subgraph Infrastructure
+    subgraph infra["Infrastructure"]
         net["<b>backend</b><br>encrypted overlay network"]
         secret["<b>mongo-keyfile</b><br>Docker secret"]
         vol_data["<b>mongodata</b><br>/data/db"]
@@ -106,6 +106,12 @@ graph TD
     db ---|"keyfile auth"| secret
     db --- vol_data
     db --- vol_cfg
+    classDef default fill:#efb146,stroke:#a96a19,stroke-width:2px,color:#0c0f0e
+    classDef quiet fill:#1b221f,stroke:#2e3733,stroke-width:2px,color:#e7ece8
+    linkStyle default stroke:#efb146,stroke-width:2px
+    class User,nosql,net,secret,vol_data,vol_cfg quiet
+    style swarm fill:transparent,stroke:#a96a19,stroke-width:1px,stroke-dasharray:5 4,color:#a96a19
+    style infra fill:transparent,stroke:#a96a19,stroke-width:1px,stroke-dasharray:5 4,color:#a96a19
 ```
 
 <br>
