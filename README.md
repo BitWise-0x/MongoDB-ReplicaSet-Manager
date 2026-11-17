@@ -308,3 +308,11 @@ members: [
 ## License
 
 MIT License — see [LICENSE](LICENSE) for details.
+
+<br>
+
+---
+
+<p align="center">
+  <sub>A <a href="https://bitwise0x.com"><b>BitWise</b></a> product</sub>
+</p>
